@@ -1,0 +1,47 @@
+{
+    "start": "q1",
+    "q1": {
+      "question": "How will you approach independence?",
+      "options": [
+        { "text": "Negotiation with colonial powers", "next": "q2a" },
+        { "text": "Armed resistance", "next": "q2b" }
+      ]
+    },
+    "q2a": {
+      "question": "What economic model will you follow?",
+      "options": [
+        { "text": "Capitalist free market", "next": "result_usa" },
+        { "text": "State-controlled socialism", "next": "result_cuba" }
+      ]
+    },
+    "q2b": {
+      "question": "Who will lead the new nation?",
+      "options": [
+        { "text": "A revolutionary leader", "next": "result_vietnam" },
+        { "text": "A military government", "next": "result_congo" }
+      ]
+    },
+    "results": {
+      "result_usa": {
+        "name": "United States",
+        "image": "usa.jpg",
+        "description": "A capitalist democracy that gained independence through negotiation."
+      },
+      "result_cuba": {
+        "name": "Cuba",
+        "image": "cuba.jpg",
+        "description": "A socialist country that took a revolutionary path to independence."
+      },
+      "result_vietnam": {
+        "name": "Vietnam",
+        "image": "vietnam.jpg",
+        "description": "A country that fought for independence through armed resistance."
+      },
+      "result_congo": {
+        "name": "Congo",
+        "image": "congo.jpg",
+        "description": "A country that fell under military rule after decolonization."
+      }
+    }
+  }
+  
