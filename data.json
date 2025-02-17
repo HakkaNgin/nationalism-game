@@ -1,47 +1,125 @@
 {
-    "start": "q1",
-    "q1": {
-      "question": "How will you approach independence?",
+  "start": "q1",
+  "q1": {
+      "question": "How will your country resist colonial rule?",
       "options": [
-        { "text": "Negotiation with colonial powers", "next": "q2a" },
-        { "text": "Armed resistance", "next": "q2b" }
+          { "text": "Negotiation and political engagement", "next": "q2a" },
+          { "text": "Mass mobilization and direct resistance", "next": "q2b" }
       ]
-    },
-    "q2a": {
-      "question": "What economic model will you follow?",
+  },
+  "q2a": {
+      "question": "What ideology will shape your new nation?",
       "options": [
-        { "text": "Capitalist free market", "next": "result_usa" },
-        { "text": "State-controlled socialism", "next": "result_cuba" }
+          { "text": "Adopt colonial institutions with national identity", "next": "q3a" },
+          { "text": "Reject colonial institutions and revive indigenous culture", "next": "q3b" }
       ]
-    },
-    "q2b": {
-      "question": "Who will lead the new nation?",
+  },
+  "q2b": {
+      "question": "What form of resistance will you choose?",
       "options": [
-        { "text": "A revolutionary leader", "next": "result_vietnam" },
-        { "text": "A military government", "next": "result_congo" }
+          { "text": "Armed revolution", "next": "q3c" },
+          { "text": "Nonviolent mass movements", "next": "q3d" }
       ]
-    },
-    "results": {
-      "result_usa": {
-        "name": "United States",
-        "image": "usa.jpg",
-        "description": "A capitalist democracy that gained independence through negotiation."
-      },
-      "result_cuba": {
-        "name": "Cuba",
-        "image": "cuba.jpg",
-        "description": "A socialist country that took a revolutionary path to independence."
-      },
-      "result_vietnam": {
-        "name": "Vietnam",
-        "image": "vietnam.jpg",
-        "description": "A country that fought for independence through armed resistance."
-      },
-      "result_congo": {
-        "name": "Congo",
-        "image": "congo.jpg",
-        "description": "A country that fell under military rule after decolonization."
-      }
-    }
+  },
+  "q3a": {
+      "question": "How will you integrate with the global economy?",
+      "options": [
+          { "text": "Capitalist development with Western alignment", "next": "q4a" },
+          { "text": "State-led modernization with socialist elements", "next": "q4b" }
+      ]
+  },
+  "q3b": {
+      "question": "What role will national identity play?",
+      "options": [
+          { "text": "Strong cultural revivalism", "next": "q4c" },
+          { "text": "Balancing tradition with modernization", "next": "q4d" }
+      ]
+  },
+  "q3c": {
+      "question": "How will you structure the post-colonial government?",
+      "options": [
+          { "text": "One-party revolutionary rule", "next": "q4e" },
+          { "text": "Decentralized socialist governance", "next": "q4f" }
+      ]
+  },
+  "q3d": {
+      "question": "How will your post-colonial economy be structured?",
+      "options": [
+          { "text": "State-controlled and self-sufficient", "next": "q4g" },
+          { "text": "Open economy with national control", "next": "q4h" }
+      ]
+  },
+  "q4a": {
+      "question": "How will you manage political stability?",
+      "options": [
+          { "text": "Strong centralized governance", "next": "result_singapore" },
+          { "text": "Democratic institutions with colonial influence", "next": "result_hongkong" }
+      ]
+  },
+  "q4b": {
+      "question": "Will you align with socialist movements?",
+      "options": [
+          { "text": "Yes, but with nationalist policies", "next": "result_turkey" },
+          { "text": "No, maintain a hybrid economic model", "next": "result_malaysia" }
+      ]
+  },
+  "q4c": {
+      "question": "How will cultural identity influence governance?",
+      "options": [
+          { "text": "Revive ancient traditions", "next": "result_india" },
+          { "text": "Blend national heritage with modern governance", "next": "result_thailand" }
+      ]
+  },
+  "q4d": {
+      "question": "Will you embrace rapid industrialization?",
+      "options": [
+          { "text": "Yes, heavily state-driven", "next": "result_japan" },
+          { "text": "Yes, but with private sector leadership", "next": "result_taiwan" }
+      ]
+  },
+  "q4e": {
+      "question": "What is the priority of your revolutionary government?",
+      "options": [
+          { "text": "Agrarian reforms and self-sufficiency", "next": "result_china" },
+          { "text": "Spreading revolution abroad", "next": "result_cuba" }
+      ]
+  },
+  "q4f": {
+      "question": "How will governance be structured?",
+      "options": [
+          { "text": "Strict state socialism", "next": "result_vietnam" },
+          { "text": "A hybrid socialist system", "next": "result_korea" }
+      ]
+  },
+  "q4g": {
+      "question": "What is your economic model?",
+      "options": [
+          { "text": "Centralized socialist planning", "next": "result_china" },
+          { "text": "State capitalism with nationalist control", "next": "result_indonesia" }
+      ]
+  },
+  "q4h": {
+      "question": "How will political governance be handled?",
+      "options": [
+          { "text": "Democratic but with strong nationalist elements", "next": "result_philippines" },
+          { "text": "A military-backed nationalist system", "next": "result_middleeast" }
+      ]
+  },
+  "results": {
+      "result_singapore": { "name": "Singapore", "image": "singapore.jpg", "description": "A capitalist success story that retained colonial institutions while modernizing." },
+      "result_hongkong": { "name": "Hong Kong", "image": "hongkong.jpg", "description": "A city-state that kept colonial legal and economic systems." },
+      "result_turkey": { "name": "Turkey", "image": "turkey.jpg", "description": "A state-led modernization project with nationalist elements." },
+      "result_malaysia": { "name": "Malaysia", "image": "malaysia.jpg", "description": "A country that maintained colonial institutions while balancing nationalism." },
+      "result_india": { "name": "India", "image": "india.jpg", "description": "A culturally revived nation that sought self-rule through nonviolence." },
+      "result_thailand": { "name": "Thailand", "image": "thailand.jpg", "description": "A monarchy balancing tradition and modernity." },
+      "result_japan": { "name": "Japan", "image": "japan.jpg", "description": "A country that rapidly industrialized and became a global power." },
+      "result_taiwan": { "name": "Taiwan", "image": "taiwan.jpg", "description": "A nation balancing industrialization with democracy." },
+      "result_china": { "name": "China", "image": "china.jpg", "description": "A communist state that pursued self-sufficiency." },
+      "result_cuba": { "name": "Cuba", "image": "cuba.jpg", "description": "A socialist nation that resisted neo-colonial influence." },
+      "result_vietnam": { "name": "Vietnam", "image": "vietnam.jpg", "description": "A revolutionary socialist state." },
+      "result_korea": { "name": "Korea", "image": "korea.jpg", "description": "A nation split by Cold War ideologies." },
+      "result_indonesia": { "name": "Indonesia", "image": "indonesia.jpg", "description": "A nationalist economy that balanced open markets." },
+      "result_philippines": { "name": "Philippines", "image": "philippines.jpg", "description": "A post-colonial democracy influenced by its colonial past." },
+      "result_middleeast": { "name": "Middle East", "image": "middleeast.jpg", "description": "A region where nationalism and military rule shaped post-colonial governance." }
   }
-  
+}
